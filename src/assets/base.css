@@ -1,0 +1,7 @@
+.form-control {
+  background-color: rgb(45, 52, 61);
+}
+
+.form-control:focus {
+  background-color: rgb(45, 52, 61);
+}
