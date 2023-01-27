@@ -8,3 +8,5 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 createApp(App).mount('#app')
 
+import jQuery from 'jQuery'
+window.jQuery = jQuery

@@ -1,4 +1,6 @@
 <script>
+import $ from 'jquery'
+
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -19,6 +21,26 @@ export default {
     FontAwesomeIcon,
   },
 };
+
+$(document).ready(function(){
+    var $nav = $('.divbar');//Caching element
+    // hide .navbar first - you can also do this in css .nav{display:none;}
+    $nav.hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+            // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 100) { //For dynamic effect use $nav.height() instead of '100'
+                $nav.fadeIn();
+            } else {
+                $nav.fadeOut();
+            }
+        });
+    });
+
+});
+
 </script>
 
 <style>
@@ -51,7 +73,7 @@ input[type="text"] {
 </style>
 
 <template>
-  <div class="container-fluid text-white grid text-center row">
+  <div class="divbar container-fluid text-white grid text-center row fixed-top ">
     <div class="d-flex align-items-center w-25">
       <img src="./logo/logo_joan.png" alt="" class="w-100 p-2" />
     </div>
@@ -87,3 +109,4 @@ input[type="text"] {
     </div>
   </div>
 </template>
+
