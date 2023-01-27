@@ -1,5 +1,5 @@
 <script>
-import $ from 'jquery'
+import $ from 'jquery';
 
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -98,13 +98,13 @@ input[type="text"] {
       </div>
     </form>
 
-    <div class="col d-flex align-items-center justify-content-center border">
+    <div class="col d-flex align-items-center justify-content-center">
       <div>
         <font-awesome-icon icon="fa-solid fa-user fa-5x" size="3x" />
       </div>
     </div>
 
-    <div class="col d-flex align-items-center justify-content-center border">
+    <div class="col d-flex align-items-center justify-content-center">
       <font-awesome-icon icon="a-solid fa-cart-shopping" size="3x" />
     </div>
   </div>
