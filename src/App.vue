@@ -2,7 +2,7 @@
 import navbar from "./components/nav-bar.vue";
 import headervid from "./components/header.vue";
 import bestfragances from "./components/best-fragances.vue";
-
+import footerapp from "./components/footer.vue"
 
 </script>
 
@@ -17,9 +17,14 @@ import bestfragances from "./components/best-fragances.vue";
   
     <bestfragances>
     </bestfragances>
+
+
+  
   </body>
 
 
+  <footerapp>
+  </footerapp>
   
 
 

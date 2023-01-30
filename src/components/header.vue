@@ -2,7 +2,7 @@
 
     <div class="video">
       <video class="w-100 " playsinline autoplay muted loop >
-      <source src="./media/Invictus Paco Rabanne.mp4" type="video/mp4">
+      <source src="./media/videos/Invictus Paco Rabanne.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
       <div class="logo ">

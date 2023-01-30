@@ -1,5 +1,7 @@
 <script>
-import $ from 'jquery';
+import $ from "jquery";
+
+
 
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
