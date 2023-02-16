@@ -27,13 +27,13 @@ export default {
     <div class="footerdiv container-fluid d-flex flex-column justify-content-center align-items-center" >
 
         <div class="hr-theme-slash-2">
-            <div class="hr-line"></div>
+            <div class=""> <hr> </div>
             <div class="hr-icon">
                 <font-awesome-icon icon="fa-brands fa-twitter" size="3x" />
                 <font-awesome-icon icon="fa-brands fa-instagram" size="3x" />
                 <font-awesome-icon icon="fa-brands fa-linkedin" size="3x" />
             </div>
-            <div class="hr-line"></div>
+            <div class=""> <hr> </div>
         </div>
 
         <div class="logo2 d-flex justify-content-center">
@@ -54,7 +54,7 @@ export default {
 <style>
 
 .footerdiv{
-    background-color: #D9BFA9;
+    background-color: #D9BFA9 !important;
 }
 .hr-theme-slash-2 {
   display: flex;

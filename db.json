@@ -1,0 +1,148 @@
+{
+"productos": [
+    {
+      "id": 0,
+      "brand":"Chanel",
+      "name": "Bleu de chanel",
+      "price": 96.00,
+      "img": "https://www.perfumestintin.com/21042871-thickbox_default/chanel-bleu-de-chanel-parfum.jpg",
+      "type": "Parfum",
+      "properties": ["amaderado", "cítrico", "aromático"],
+      "description": "Bleu de Chanel Parfum de Chanel es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Bleu de Chanel Parfum se lanzó en 2018. La Nariz detrás de esta fragrancia es Olivier Polge. Las Notas de Salida son Entusiasmo de limón, bergamota, menta y abrótano; las Notas de Corazón son lavanda, piña, geranio y notas verdes; las Notas de Fondo son sándalo, cedro, Amberwood, Iso E Super y haba tonka.",
+      "sold": 543 
+    },
+    {
+        "id": 1,
+        "brand":"Paco Rabanne",
+        "name": "1 Million",
+        "price": 62.95,
+        "img": "https://www.perfumestintin.com/21040390-thickbox_default/paco-rabanne-1-million-eau-de-toilette.jpg",
+        "type": "EDT",
+        "properties": ["cálido especiado", "canela", "cítrico"],
+        "description": "1 Million de Paco Rabanne es una fragancia de la familia olfativa Amaderada Especiada para Hombres. 1 Million se lanzó en 2008. 1 Million fue creada por Christophe Raynaud, Olivier Pescheux, Michel Girard y Christian Dussoulier. Las Notas de Salida son mandarina roja, toronja (pomelo) y menta; las Notas de Corazón son canela, notas especiadas y rosa; las Notas de Fondo son ámbar, cuero, notas amaderadas y pachulí hindú.",
+        "sold": 259
+    },
+    {
+        "id": 2,
+        "brand":"Paco Rabanne",
+        "name": "Invictus Platinum",
+        "price": 66.95,
+        "img": "https://www.perfumestintin.com/21047575-thickbox_default/paco-rabanne-invictus-platinum-eau-de-parfum.jpg",
+        "type": "EDP",
+        "properties": ["aromático", "fresco especiado", "verde"],
+        "description": "Invictus Platinum de Paco Rabanne es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Invictus Platinum se lanzó en 2022. Las Notas de Salida son toronja (pomelo) y absenta; las Notas de Corazón son menta y lavanda; las Notas de Fondo son ciprés y pachulí.",
+        "sold": 370
+    },
+    {
+        "id": 3,
+        "brand":"Carolina Herrera",
+        "name": "Bad Boy Cobalt",
+        "price": 69.95,
+        "img": "https://www.perfumestintin.com/21046850-thickbox_default/carolina-herrera-bad-boy-cobalt-eau-de-parfum.jpg",
+        "type": "EDP",
+        "properties": ["amaderado", "aromático", "afrutados"],
+        "description": "Bad Boy Cobalt Parfum Electrique de Carolina Herrera es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Bad Boy Cobalt Parfum Electrique se lanzó en 2022. La Nariz detrás de esta fragrancia es Domitille Michalon Bertier. Las Notas de Salida son pimienta rosa y lavanda; las Notas de Corazón son ciruela y geranio; las Notas de Fondo son vetiver, trufa, cedro y roble.",
+        "sold": 402
+    },
+    {
+        "id": 4,
+        "brand":"Yves Saint Laurent",
+        "name": "Y Men",
+        "price": 98.00,
+        "img": "https://www.perfumestintin.com/21042950-thickbox_default/yves-saint-laurent-y-men-eau-de-parfum.jpg",
+        "type": "EDP",
+        "properties": ["aromático", "amaderado", "fresco especiado"],
+        "description" : "Y Eau de Parfum de Yves Saint Laurent es una fragancia de la familia olfativa Aromática Fougère para Hombres. Y Eau de Parfum se lanzó en 2018. La Nariz detrás de esta fragrancia es Dominique Ropion. Las Notas de Salida son manzana, jengibre y bergamota; las Notas de Corazón son salvia, bayas de enebro y geranio; las Notas de Fondo son Amberwood, haba tonka, cedro, vetiver y incienso de olíbano (franquincienso).",
+        "sold": 510
+    },
+    {
+        "id": 5,
+        "brand":"DIOR",
+        "name": "SAUVAGE ELIXIR",
+        "price": 164.90,
+        "img": "https://www.perfumestintin.com/21048201-thickbox_default/dior-sauvage-elixir-parfum.jpg",
+        "type": "Parfum",
+        "properties": ["cálido especiado", "fresco especiado", "amaderado"],
+        "description": "Sauvage Elixir de Dior es una fragancia de la familia olfativa Aromática para Hombres. Esta fragrancia es nueva. Sauvage Elixir se lanzó en 2021. La Nariz detrás de esta fragrancia es Francois Demachy. Las Notas de Salida son canela, nuez moscada, cardamomo y toronja (pomelo); la Nota de Corazón es lavanda; las Notas de Fondo son regaliz, sándalo, ámbar, pachulí y vetiver de Haití.",
+        "sold": 810
+    },
+    {
+        "id": 6,
+        "brand":"Giorgio Armani",
+        "name": "Acqua di Giò Recargable",
+        "price": 102.50,
+        "img": "https://www.perfumestintin.com/21046892-thickbox_default/giorgio-armani-acqua-di-gio-eau-de-parfum-recarga.jpg",
+        "type": "EDP",
+        "properties": ["aromático", "amaderado", "fresco especiado"],
+        "description": "Acqua di Gio de Giorgio Armani es una fragancia de la familia olfativa Aromática Acuática para Hombres. Acqua di Gio se lanzó en 1996. Acqua di Gio fue creada por Alberto Morillas, Annick Menardo y Christian Dussoulier. Las Notas de Salida son lima (limón verde), limón (lima ácida), bergamota, jazmín, naranja, mandarina y neroli; las Notas de Corazón son notas marinas, jazmín, calone, durazno (melocotón), fresia, romero, jacinto, ciclamen (violeta persa), cilantro, violeta, nuez moscada, rosa y reseda (miñoneta); las Notas de Fondo son almizcle blanco, cedro, musgo de roble, pachulí y ámbar.",
+        "sold": 603
+    },
+    {
+        "id": 7,
+        "brand":"Tom Ford",
+        "name": "Ombré Leather",
+        "price": 132.99,
+        "img": "https://fraguru.com/mdimg/perfume/375x500.50239.jpg",
+        "type": "EDP",
+        "properties": ["cuero", "animálico", "floral blanco"],
+        "description": "Ombré Leather (2018) de Tom Ford es una fragancia de la familia olfativa Cuero para Hombres y Mujeres. Ombré Leather (2018) se lanzó en 2018. La Nariz detrás de esta fragrancia es Sonia Constant. La Nota de Salida es cardamomo; las Notas de Corazón son cuero y jazmín sambac (sampaguita); las Notas de Fondo son ámbar, musgo y pachulí.",
+        "sold": 214
+    },
+    {
+        "id": 8,
+        "brand":"Ralph Lauren",
+        "name": "Polo Red",
+        "price": 73.90,
+        "img": "https://www.perfumestintin.com/21042324-thickbox_default/ralph-lauren-polo-red-eau-de-toilette.jpg",
+        "type": "EDT",
+        "properties": ["cítrico", "afrutados", "ámbar"],
+        "description": "Polo Red de Ralph Lauren es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Polo Red se lanzó en 2013. La Nariz detrás de esta fragrancia es Olivier Gillotin. Las Notas de Salida son arándano, toronja (pomelo) y limón italiano (lima italiana); las Notas de Corazón son azafrán y salvia; las Notas de Fondo son ámbar, café y notas amaderadas.",
+        "sold": 149
+    },
+    {
+        "id": 9,
+        "brand":"Giorgio Armani",
+        "name": "Stronger With You Intensely",
+        "price": 80.60,
+        "img": "https://www.perfumestintin.com/21050685-thickbox_default/giorgio-armani-stronger-with-you-intensely-eau-de-parfum.jpg",
+        "type": "EDP",
+        "properties": ["avainillado", "dulce", "ámbar"],
+        "description": "Emporio Armani Stronger With You Intensely de Giorgio Armani es una fragancia de la familia olfativa Ámbar Fougère para Hombres. Emporio Armani Stronger With You Intensely se lanzó en 2019. Las Notas de Salida son pimienta rosa, enebro de Virginia y violeta; las Notas de Corazón son tófe, canela, lavanda y salvia; las Notas de Fondo son vainilla, haba tonka, ámbar y gamuza.",
+        "sold": 483
+    },
+    {
+        "id": 10,
+        "brand":"DIOR",
+        "name": "HOMME INTENSE",
+        "price": 92.99,
+        "img": "https://fraguru.com/mdimg/perfume/375x500.13016.jpg",
+        "type": "EDP",
+        "properties": ["iris", "amaderado", "atalcado"],
+        "description":"Dior Homme Intense 2011 de Dior es una fragancia de la familia olfativa Almizcle Amaderado Floral para Hombres. Dior Homme Intense 2011 se lanzó en 2011. La Nariz detrás de esta fragrancia es Francois Demachy. La Nota de Salida es lavanda; las Notas de Corazón son iris, almizcle ambreta y pera; las Notas de Fondo son cedro de Virginia y vetiver.",
+        "sold": 124
+    },
+    {
+        "id": 11,
+        "brand":"Montblanc",
+        "name": "Explorer",
+        "price": 53.99,
+        "img": "https://fraguru.com/mdimg/perfume/375x500.52002.jpg",
+        "type": "EDP",
+        "properties": ["amaderado", "cítrico", "ámbar"],
+        "description": "Explorer de Montblanc es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Explorer se lanzó en 2019. Explorer fue creada por Jórdi Fernandez, Antoine Maisondieu y Olivier Pescheux. Las Notas de Salida son bergamota, pimienta rosa y esclarea; las Notas de Corazón son vetiver de Haití y cuero; las Notas de Fondo son ambroxan, Akigalawood, hojas de pachulí de Indonesia y vaina de cacao.",
+        "sold": 340
+    },
+    {
+        "id": 12,
+        "brand":"Valentino",
+        "name": "Uomo Intense",
+        "price": 62.99,
+        "img": "https://www.perfumestintin.com/21042950-thickbox_default/yves-saint-laurent-y-men-eau-de-parfum.jpg",
+        "type": "EDP",
+        "properties": ["avainillado", "iris", "atalcado"],
+        "description": "Valentino Uomo Intense de Valentino es una fragancia de la familia olfativa Cuero para Hombres. Valentino Uomo Intense se lanzó en 2016. Las Notas de Salida son mandarina y esclarea; las Notas de Corazón son iris y haba tonka; las Notas de Fondo son vainilla y cuero.",
+        "sold": 489
+    }
+
+  ]
+}

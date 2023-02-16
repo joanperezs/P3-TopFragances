@@ -1,7 +1,5 @@
 <script setup>
 import navbar from "./components/nav-bar.vue";
-import headervid from "./components/header.vue";
-import bestfragances from "./components/best-fragances.vue";
 import footerapp from "./components/footer.vue"
 
 </script>
@@ -12,12 +10,8 @@ import footerapp from "./components/footer.vue"
   </navbar>
   
   <body>
-    <headervid>
-    </headervid>
-  
-    <bestfragances>
-    </bestfragances>
 
+   <router-view></router-view>
 
   
   </body>
@@ -32,6 +26,7 @@ import footerapp from "./components/footer.vue"
 
 <style>
   body {
+  
   background-color: #a69586 !important;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
