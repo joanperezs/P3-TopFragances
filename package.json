@@ -7,7 +7,6 @@
     "build": "vite build",
     "preview": "vite preview",
     "api": "json-server --watch db.json"
-    
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -20,6 +19,7 @@
     "json-server": "^0.17.1",
     "resolve-url-loader": "^5.0.0",
     "swiper": "^8.4.7",
+    "swiperjs-vue": "^1.0.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

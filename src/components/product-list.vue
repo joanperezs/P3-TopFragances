@@ -1,58 +1,60 @@
-<template>
-  <div class="selects d-flex gap-3">
-    <select class="form-select select w-25" aria-label="Ordenar por">
-      <option selected>Ordenar por</option>
-      <option value="1">Precios más altos</option>
-      <option value="2">Precios más bajos</option>
-      <option value="3">Relevancia</option>
-    </select>
-
-    <select class="form-select w-25" aria-label="Ordenar por">
-      <option selected>Marca</option>
-      <option value="1">Chanel</option>
-      <option value="2">Dior</option>
-      <option value="3">Giorgio Armani</option>
-      <option value="3">Ralph Lauren</option>
-    </select>
-
-    
-  </div>
-
-  <div class="d-flex flex-wrap justify-content-center p-4">
-    <div
-      v-for="product in productos"
-      :key="product.id"
-      class="carta d-flex flex-column p-4"
-    >
-      <div class="imagendiv rounded-5" style="">
-        <img :src="product.img" class="imagen rounded-3" alt="..." />
-      </div>
-      <div class="card-body pt-3">
-        <div
-          class="info d-flex flex-column justify-content-center align-items-center"
-        >
-          <p class="parfum-brand fw-bold">{{ product.brand }}</p>
-          <p class="parfum-title">{{ product.name }}</p>
-          <p class="precio">Desde {{ product.price }}€</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
 <script>
+import PerfumeCard from "./perfume-card.vue";
 export default {
-  name: "TodoList",
   data() {
     return {
       productos: [],
+      perfumesXPag: 8,
+      pagina: 1,
+      tieneMasPerfumes: true,
     };
   },
-  mounted() {
-    fetch(`http://localhost:3000/productos/`)
-      .then((res) => res.json())
-      .then((data) => (this.productos = data))
-      .catch((err) => console.log(err.message));
+
+  methods: {
+    fetchProductos(pagina) {
+      fetch(`http://localhost:3000/productos?_page=${pagina}&_limit=8`)
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.length === 0) {
+            this.tieneMasPerfumes = false;
+          } else {
+            this.productos = this.productos.concat(data);
+          }
+        });
+    },
+
+    cargarMas() {
+      this.pagina += 1;
+      console.log(this.pagina);
+      this.fetchProductos(this.pagina);
+      console.log(this.fetchProductos(this.pagina));
+    },
   },
+  mounted() {
+    this.fetchProductos(this.pagina);
+  },
+  components: { PerfumeCard },
 };
 </script>
+
+<template>
+  <div class="productlist container-fluid">
+    <div class="container">
+      <div class="row row-gap-3">
+        <PerfumeCard
+          v-for="(product, index) in productos"
+          :key="index"
+          :product="product"
+          class="col-md-3"
+        ></PerfumeCard>
+      </div>
+      <button
+        v-if="tieneMasPerfumes"
+        @click="cargarMas"
+        class="btn btn-primary"
+      >
+        Cargar más
+      </button>
+    </div>
+  </div>
+</template>

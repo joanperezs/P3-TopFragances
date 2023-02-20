@@ -6,7 +6,7 @@
     import $ from "jquery";
 
     $(document).ready(function(){
-      var $nav = $('.divbar');//Caching element
+      var $nav = $('.navbar');//Caching element
       // hide .navbar first - you can also do this in css .nav{display:none;}
       //$nav.hide();
 
@@ -32,7 +32,8 @@
     export default {
   components: {
     headervid, bestfragances, publicity
-  }
+  },
+
 
   
 }
@@ -42,9 +43,6 @@
     <headervid>
     </headervid>
     
-    <publicity>
-    </publicity>
-
-    <bestfragances>
+    <bestfragances :index="index">
     </bestfragances>
 </template>

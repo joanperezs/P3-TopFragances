@@ -1,40 +1,25 @@
 <script setup>
 import navbar from "./components/nav-bar.vue";
-import footerapp from "./components/footer.vue"
-
+import footerapp from "./components/footerapp.vue";
 </script>
 
-
 <template>
-  <navbar>
-  </navbar>
-  
-  <body>
+  <navbar></navbar>
 
-   <router-view></router-view>
+  <router-view></router-view>
 
-  
-  </body>
-
-
-  <footerapp>
-  </footerapp>
-  
-
-
+  <footerapp> </footerapp>
 </template>
 
 <style>
-  body {
-  
+body {
   background-color: #a69586 !important;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  body::-webkit-scrollbar {
-    display: none;
-  }
-
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
 </style>
