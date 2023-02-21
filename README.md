@@ -6,7 +6,7 @@ Hecho por Joan Pérez Susidko
 Sin estos módulos no funcionará la página web.
 
 ```sh
-npm install
+npm install vue
 ```
 
 ```sh
@@ -15,6 +15,10 @@ npm install swiper
 
 ```sh
 npm install jquery
+```
+
+```sh
+npm install json-server
 ```
 
 ## Introducción
